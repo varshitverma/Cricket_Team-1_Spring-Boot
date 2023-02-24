@@ -10,7 +10,7 @@ The `PlayerService` class has a variable named `team`, which is a HashMap that h
 <br><br>
 </details>
 
-### Completion Instructions
+### Instructions
 
 - `Player.java`: `Player` class should contain the following attributes.
 
