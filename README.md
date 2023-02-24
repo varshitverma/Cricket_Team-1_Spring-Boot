@@ -2,13 +2,13 @@ Given four files `PlayerController.java`, `PlayerRepository.java`, `PlayerServic
 The `PlayerService` class has a variable named `team`, which is a HashMap that holds `Integer`s as keys and 
 `Player` objects as values. Initially, it contains data of **11** players.
 
-<details>
-<summary>NOTE</summary>
-<br>
-    The crud operations done won't persist after reload. Since it's not connected to a Database. 
+
+### NOTE
+```
+The crud operations done won't persist after reload. Since it's not connected to a Database. 
     Basic data is available in (src/main/java/com/example/player/PlayerService.java) file.
-<br><br>
-</details>
+```
+
 
 ### Instructions
 
@@ -152,3 +152,10 @@ raise `ResponseStatusException` with `HttpStatus.NOT_FOUND`.
 
 **Do not modify the code in `PlayerApplication.java`**
 
+```
+> After: | mvn spring-boot:run | in IDE
+> Go to the Postman website. 
+> Check for the import option and import the (Cricket Team SpringBoot CRUD.postman_collection.json) file
+    to list all the HTTP methods templates to do crud operations ;)
+```
+<a href="https://www.postman.com/"> POSTMAN </a>
