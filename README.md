@@ -5,8 +5,8 @@ The `PlayerService` class has a variable named `team`, which is a HashMap that h
 <details>
 <summary>NOTE</summary>
 <br>
-    The crud operations done won't persist since it's not connected to a Database. 
-    Basic data available in PlayerService.java file in team HashMap.
+    The crud operations done won't persist after reload. Since it's not connected to a Database. 
+    Basic data is available in (src/main/java/com/example/player/PlayerService.java) file.
 <br><br>
 </details>
 
