@@ -152,8 +152,10 @@ raise `ResponseStatusException` with `HttpStatus.NOT_FOUND`.
 
 **Do not modify the code in `PlayerApplication.java`**
 
+<br></br>
+### After project setup in IDE
 ```
-> After: | mvn spring-boot:run | in IDE
+> After: | mvn spring-boot:run | in Terminal
 > Go to the Postman website. 
 > Check for the import option and import the (Cricket Team SpringBoot CRUD.postman_collection.json) file
     to list all the HTTP methods templates to do crud operations ;)
