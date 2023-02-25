@@ -155,9 +155,10 @@ raise `ResponseStatusException` with `HttpStatus.NOT_FOUND`.
 <br></br>
 ### After project setup in IDE
 ```
-> After: | mvn spring-boot:run | in Terminal
+> After: | mvn spring-boot:run | in Terminal.
 > Go to the Postman website. 
 > Check for the import option and import the (Cricket Team SpringBoot CRUD.postman_collection.json) file
-    to list all the HTTP methods templates to do crud operations ;) (Update the api link)
+    to list all the HTTP methods templates to do crud operations ; (Update/Provide own the api link).
+> For POST/PUT Operations in POSTMAN body>raw>json.
 ```
 <a href="https://www.postman.com/"> POSTMAN </a>
